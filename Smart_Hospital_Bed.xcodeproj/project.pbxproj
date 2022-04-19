@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0147957280F075200BE4751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0147956280F075200BE4751 /* Assets.xcassets */; };
+		D0147959280F07B100BE4751 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = D0147958280F07B100BE4751 /* Preview Content */; };
 		D03747C0280EF72C00255C12 /* Smart_Hospital_BedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747BF280EF72C00255C12 /* Smart_Hospital_BedApp.swift */; };
 		D03747C2280EF72C00255C12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747C1280EF72C00255C12 /* ContentView.swift */; };
-		D03747C4280EF73000255C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03747C3280EF73000255C12 /* Assets.xcassets */; };
-		D03747C7280EF73000255C12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03747C6280EF73000255C12 /* Preview Assets.xcassets */; };
 		D03747D1280EF73000255C12 /* Smart_Hospital_BedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747D0280EF73000255C12 /* Smart_Hospital_BedTests.swift */; };
 		D03747DB280EF73000255C12 /* Smart_Hospital_BedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747DA280EF73000255C12 /* Smart_Hospital_BedUITests.swift */; };
 		D03747DD280EF73000255C12 /* Smart_Hospital_BedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747DC280EF73000255C12 /* Smart_Hospital_BedUITestsLaunchTests.swift */; };
-		D03747EA280EF7CD00255C12 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747E9280EF7CD00255C12 /* SwiftUIView.swift */; };
+		D075F5E4280EFD6400479A3B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D075F5E3280EFD6400479A3B /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0147956280F075200BE4751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0147958280F07B100BE4751 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
 		D03747BC280EF72C00255C12 /* Smart_Hospital_Bed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smart_Hospital_Bed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03747BF280EF72C00255C12 /* Smart_Hospital_BedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Hospital_BedApp.swift; sourceTree = "<group>"; };
 		D03747C1280EF72C00255C12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D03747C3280EF73000255C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D03747C6280EF73000255C12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D03747CC280EF73000255C12 /* Smart_Hospital_BedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smart_Hospital_BedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03747D0280EF73000255C12 /* Smart_Hospital_BedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Hospital_BedTests.swift; sourceTree = "<group>"; };
 		D03747D6280EF73000255C12 /* Smart_Hospital_BedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smart_Hospital_BedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03747DA280EF73000255C12 /* Smart_Hospital_BedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Hospital_BedUITests.swift; sourceTree = "<group>"; };
 		D03747DC280EF73000255C12 /* Smart_Hospital_BedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Hospital_BedUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D03747E9280EF7CD00255C12 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		D075F5E3280EFD6400479A3B /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,21 +96,13 @@
 		D03747BE280EF72C00255C12 /* Smart_Hospital_Bed */ = {
 			isa = PBXGroup;
 			children = (
-				D03747E9280EF7CD00255C12 /* SwiftUIView.swift */,
+				D0147958280F07B100BE4751 /* Preview Content */,
+				D0147956280F075200BE4751 /* Assets.xcassets */,
+				D075F5E3280EFD6400479A3B /* Home.swift */,
 				D03747BF280EF72C00255C12 /* Smart_Hospital_BedApp.swift */,
 				D03747C1280EF72C00255C12 /* ContentView.swift */,
-				D03747C3280EF73000255C12 /* Assets.xcassets */,
-				D03747C5280EF73000255C12 /* Preview Content */,
 			);
 			path = Smart_Hospital_Bed;
-			sourceTree = "<group>";
-		};
-		D03747C5280EF73000255C12 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D03747C6280EF73000255C12 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		D03747CF280EF73000255C12 /* Smart_Hospital_BedTests */ = {
@@ -234,8 +226,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D03747C7280EF73000255C12 /* Preview Assets.xcassets in Resources */,
-				D03747C4280EF73000255C12 /* Assets.xcassets in Resources */,
+				D0147959280F07B100BE4751 /* Preview Content in Resources */,
+				D0147957280F075200BE4751 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D03747C2280EF72C00255C12 /* ContentView.swift in Sources */,
+				D075F5E4280EFD6400479A3B /* Home.swift in Sources */,
 				D03747C0280EF72C00255C12 /* Smart_Hospital_BedApp.swift in Sources */,
-				D03747EA280EF7CD00255C12 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
