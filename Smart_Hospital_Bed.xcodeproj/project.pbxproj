@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D0147957280F075200BE4751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0147956280F075200BE4751 /* Assets.xcassets */; };
 		D0147959280F07B100BE4751 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = D0147958280F07B100BE4751 /* Preview Content */; };
+		D02C276F280FAD94003394BC /* emergency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C276E280FAD94003394BC /* emergency.swift */; };
+		D02C2771280FADDC003394BC /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C2770280FADDC003394BC /* Record.swift */; };
 		D03747C0280EF72C00255C12 /* Smart_Hospital_BedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747BF280EF72C00255C12 /* Smart_Hospital_BedApp.swift */; };
 		D03747C2280EF72C00255C12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747C1280EF72C00255C12 /* ContentView.swift */; };
 		D03747D1280EF73000255C12 /* Smart_Hospital_BedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747D0280EF73000255C12 /* Smart_Hospital_BedTests.swift */; };
@@ -37,6 +39,8 @@
 /* Begin PBXFileReference section */
 		D0147956280F075200BE4751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0147958280F07B100BE4751 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		D02C276E280FAD94003394BC /* emergency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emergency.swift; sourceTree = "<group>"; };
+		D02C2770280FADDC003394BC /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		D03747BC280EF72C00255C12 /* Smart_Hospital_Bed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smart_Hospital_Bed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03747BF280EF72C00255C12 /* Smart_Hospital_BedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Hospital_BedApp.swift; sourceTree = "<group>"; };
 		D03747C1280EF72C00255C12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				D075F5E3280EFD6400479A3B /* Home.swift */,
 				D03747BF280EF72C00255C12 /* Smart_Hospital_BedApp.swift */,
 				D03747C1280EF72C00255C12 /* ContentView.swift */,
+				D02C276E280FAD94003394BC /* emergency.swift */,
+				D02C2770280FADDC003394BC /* Record.swift */,
 			);
 			path = Smart_Hospital_Bed;
 			sourceTree = "<group>";
@@ -253,6 +259,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D03747C2280EF72C00255C12 /* ContentView.swift in Sources */,
+				D02C276F280FAD94003394BC /* emergency.swift in Sources */,
+				D02C2771280FADDC003394BC /* Record.swift in Sources */,
 				D075F5E4280EFD6400479A3B /* Home.swift in Sources */,
 				D03747C0280EF72C00255C12 /* Smart_Hospital_BedApp.swift in Sources */,
 			);
