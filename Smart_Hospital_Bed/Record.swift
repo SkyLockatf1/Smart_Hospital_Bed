@@ -8,7 +8,7 @@
 import SwiftUI
 import AVKit
 
-struct Recorder: View{
+struct Record: View{
     @State var record = false
     @State var session : AVAudioSession!
     @State var recorder: AVAudioRecorder!
@@ -50,7 +50,7 @@ struct Recorder: View{
       }
     }
 
-struct Record: View {
+/* struct Record: View {
     var body: some View {
         NavigationView{
             List{
@@ -66,11 +66,11 @@ struct Record: View {
             }
         }
     }
-}
+}*/
 
 struct Record_Previews: PreviewProvider {
     static var previews: some View {
         Record()
-        Recorder()
+        //Recorder()
     }
 }

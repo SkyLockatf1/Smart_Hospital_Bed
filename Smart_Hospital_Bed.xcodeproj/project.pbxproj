@@ -16,6 +16,7 @@
 		D03747D1280EF73000255C12 /* Smart_Hospital_BedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747D0280EF73000255C12 /* Smart_Hospital_BedTests.swift */; };
 		D03747DB280EF73000255C12 /* Smart_Hospital_BedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747DA280EF73000255C12 /* Smart_Hospital_BedUITests.swift */; };
 		D03747DD280EF73000255C12 /* Smart_Hospital_BedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747DC280EF73000255C12 /* Smart_Hospital_BedUITestsLaunchTests.swift */; };
+		D05CF51928130FD70083F6D0 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D05CF51828130FD70083F6D0 /* info.plist */; };
 		D075F5E4280EFD6400479A3B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D075F5E3280EFD6400479A3B /* Home.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		D03747D6280EF73000255C12 /* Smart_Hospital_BedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smart_Hospital_BedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03747DA280EF73000255C12 /* Smart_Hospital_BedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Hospital_BedUITests.swift; sourceTree = "<group>"; };
 		D03747DC280EF73000255C12 /* Smart_Hospital_BedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Hospital_BedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D05CF51828130FD70083F6D0 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 		D075F5E3280EFD6400479A3B /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 				D03747C1280EF72C00255C12 /* ContentView.swift */,
 				D02C276E280FAD94003394BC /* emergency.swift */,
 				D02C2770280FADDC003394BC /* Record.swift */,
+				D05CF51828130FD70083F6D0 /* info.plist */,
 			);
 			path = Smart_Hospital_Bed;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			files = (
 				D0147959280F07B100BE4751 /* Preview Content in Resources */,
 				D0147957280F075200BE4751 /* Assets.xcassets in Resources */,
+				D05CF51928130FD70083F6D0 /* info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
