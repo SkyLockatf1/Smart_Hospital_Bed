@@ -14,11 +14,12 @@ struct Record: View{
     @State var recorder: AVAudioRecorder!
     @State var alert = false
     
-      var body: some View {
-          VStack{
-              Button(action:{
-                  self.record.toggle()
-              }) {
+    var body: some View {
+          NavigationView{
+              VStack{
+                  Button(action:{
+                      self.record.toggle()
+                  }) {
                   ZStack{
                       Circle()
                           .fill(Color.red)
@@ -28,27 +29,32 @@ struct Record: View{
                               .stroke(Color.white,lineWidth: 6)
                               .frame(width: 85, height: 85)
                       }
-                  }
+                  }}
+                  .padding(.vertical, 25)
               }
-              .padding(.vertical, 25)
-          }
+          .navigationTitle("Record Audio")
+         }
+          .alert(isPresented: self.$alert, content: {
+              Alert(title: Text("error"), message: Text("Enable Access"))
+          })
           .onAppear{
-              do{
-                  self.session = AVAudioSession.sharedInstance()
-                  try self.session.setCategory(.playAndRecord)
-                  self.session.requestRecordPermission{(status) in
-                      if !status{
-                          self.alert.toggle()
-                      }
-                  }
-              }
-              catch{
-                  print(error.localizedDescription)
-                  
-              }
-          }
+            do{
+                self.session = AVAudioSession.sharedInstance()
+                try self.session.setCategory(.playAndRecord)
+                self.session.requestRecordPermission{(status) in
+                    if !status{
+                        self.alert.toggle()
+                    }
+                }
+            }
+            catch{
+                print(error.localizedDescription)
+                
+            }
       }
+
     }
+}
 
 /* struct Record: View {
     var body: some View {
