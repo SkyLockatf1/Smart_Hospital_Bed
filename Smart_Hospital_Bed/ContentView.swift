@@ -14,7 +14,10 @@ struct ContentView: View {
                 .tabItem{
                     Label("Home",systemImage: "house")
                 }
-            
+            Record()
+                .tabItem{
+                    Label("Record",systemImage: "")
+                }
         }
     }
 }
