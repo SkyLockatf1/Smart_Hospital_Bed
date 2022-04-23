@@ -22,7 +22,6 @@
 		D03747DB280EF73000255C12 /* Smart_Hospital_BedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747DA280EF73000255C12 /* Smart_Hospital_BedUITests.swift */; };
 		D03747DD280EF73000255C12 /* Smart_Hospital_BedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747DC280EF73000255C12 /* Smart_Hospital_BedUITestsLaunchTests.swift */; };
 		D075F5E4280EFD6400479A3B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D075F5E3280EFD6400479A3B /* Home.swift */; };
-		D0C12CA12814C41C00EBEA90 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0C12CA02814C41C00EBEA90 /* info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -252,7 +251,6 @@
 			files = (
 				D0147959280F07B100BE4751 /* Preview Content in Resources */,
 				D0147957280F075200BE4751 /* Assets.xcassets in Resources */,
-				D0C12CA12814C41C00EBEA90 /* info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
