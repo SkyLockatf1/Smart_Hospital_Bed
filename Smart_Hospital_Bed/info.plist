@@ -2,13 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSFileProviderDomainUsageDescription</key>
-	<string></string>
-	<key>CFBundleName</key>
-	<string>Smart_Hospital_Bed</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>For using microphone</string>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>We need access to your microphone to conduct recording sessions.</string>
 </dict>
 </plist>
