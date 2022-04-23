@@ -14,13 +14,9 @@ struct ContentView: View {
                 .tabItem{
                     Label("Home",systemImage: "house")
                 }
-            emergency()
-                .tabItem{
-                    Label("Emergency",systemImage: "")
-                }
             Record(audioRecorder: AudioRecorder())
                 .tabItem{
-                    Label("Record",systemImage: "")
+                    Label("Record",systemImage: "list.bullet")
                 }
         }
     }

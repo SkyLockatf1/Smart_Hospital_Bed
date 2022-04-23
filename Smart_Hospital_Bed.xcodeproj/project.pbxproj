@@ -13,6 +13,7 @@
 		D019E6232814446600481796 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019E6222814446600481796 /* Extensions.swift */; };
 		D019E62528144ACB00481796 /* RecordingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019E62428144ACB00481796 /* RecordingDataModel.swift */; };
 		D019E6272814522600481796 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019E6262814522600481796 /* AudioPlayer.swift */; };
+		D019E6292814583D00481796 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019E6282814583D00481796 /* Helper.swift */; };
 		D02C276F280FAD94003394BC /* emergency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C276E280FAD94003394BC /* emergency.swift */; };
 		D02C2771280FADDC003394BC /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C2770280FADDC003394BC /* Record.swift */; };
 		D03747C0280EF72C00255C12 /* Smart_Hospital_BedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747BF280EF72C00255C12 /* Smart_Hospital_BedApp.swift */; };
@@ -48,6 +49,7 @@
 		D019E6222814446600481796 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D019E62428144ACB00481796 /* RecordingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDataModel.swift; sourceTree = "<group>"; };
 		D019E6262814522600481796 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		D019E6282814583D00481796 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		D02C276E280FAD94003394BC /* emergency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emergency.swift; sourceTree = "<group>"; };
 		D02C2770280FADDC003394BC /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		D03747BC280EF72C00255C12 /* Smart_Hospital_Bed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smart_Hospital_Bed.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +124,7 @@
 				D019E6222814446600481796 /* Extensions.swift */,
 				D019E62428144ACB00481796 /* RecordingDataModel.swift */,
 				D019E6262814522600481796 /* AudioPlayer.swift */,
+				D019E6282814583D00481796 /* Helper.swift */,
 			);
 			path = Smart_Hospital_Bed;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				D019E62528144ACB00481796 /* RecordingDataModel.swift in Sources */,
 				D02C2771280FADDC003394BC /* Record.swift in Sources */,
 				D075F5E4280EFD6400479A3B /* Home.swift in Sources */,
+				D019E6292814583D00481796 /* Helper.swift in Sources */,
 				D03747C0280EF72C00255C12 /* Smart_Hospital_BedApp.swift in Sources */,
 				D019E6232814446600481796 /* Extensions.swift in Sources */,
 			);

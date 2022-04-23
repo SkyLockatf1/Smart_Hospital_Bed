@@ -53,7 +53,7 @@ class AudioRecorder: NSObject,ObservableObject {
         do {
             audioRecorder = try AVAudioRecorder(url: audioFilename, settings: settings)
             audioRecorder.record()
-
+            
             recording = true
         } catch {
             print("Could not start recording")
@@ -88,7 +88,7 @@ class AudioRecorder: NSObject,ObservableObject {
         for url in urlsToDelete {
             print(url)
             do {
-               try FileManager.default.removeItem(at: url)
+                try FileManager.default.removeItem(at: url)
             } catch {
                 print("File could not be deleted!")
             }
@@ -105,37 +105,48 @@ struct Record: View {
     var body: some View {
         NavigationView{
             VStack{
-            List{
-                Text("List")
-            }
-            .navigationTitle("Doc. Record")
-                ZStack{
-                    VStack {
-                                if audioRecorder.recording == false {
-                                    Button(action: {print("Start recording")}) {
-                                        Image(systemName: "circle.fill")
-                                            .resizable()
-                                            .aspectRatio(contentMode: .fill)
-                                            .frame(width: 100, height: 100)
-                                            .clipped()
-                                            .foregroundColor(.red)
-                                            .padding(.bottom, 40)
-                                    }
-                                } else {
-                                    Button(action: {self.audioRecorder.stopRecording()}) {
-                                        Image(systemName: "stop.fill")
-                                            .resizable()
-                                            .aspectRatio(contentMode: .fill)
-                                            .frame(width: 100, height: 100)
-                                            .clipped()
-                                            .foregroundColor(.red)
-                                            .padding(.bottom, 40)
-                                    }
+                List{
+                    ForEach(audioRecorder.recordings, id: \.createdAt) { recording in
+                        RecordingRow(audioURL: recording.fileURL)
+                    }
+                    .onDelete(perform: delete)
+                    .navigationTitle("Doc. Record")
+                    .navigationBarItems(trailing: EditButton())
+                    ZStack{
+                        VStack {
+                            if audioRecorder.recording == false {
+                                Button(action: {print("Start recording")}) {
+                                    Image(systemName: "circle.fill")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                        .frame(width: 100, height: 100)
+                                        .clipped()
+                                        .foregroundColor(.red)
+                                        .padding(.bottom, 40)
+                                }
+                            } else {
+                                Button(action: {self.audioRecorder.stopRecording()}) {
+                                    Image(systemName: "stop.fill")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                        .frame(width: 100, height: 100)
+                                        .clipped()
+                                        .foregroundColor(.red)
+                                        .padding(.bottom, 40)
                                 }
                             }
+                        }
+                    }
                 }
             }
         }
+    }
+    func delete(at offsets: IndexSet) {
+        var urlsToDelete = [URL]()
+        for index in offsets {
+            urlsToDelete.append(audioRecorder.recordings[index].fileURL)
+        }
+        audioRecorder.deleteRecording(urlsToDelete: urlsToDelete)
     }
 }
 
