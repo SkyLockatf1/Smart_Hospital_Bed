@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		D0147957280F075200BE4751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0147956280F075200BE4751 /* Assets.xcassets */; };
 		D0147959280F07B100BE4751 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = D0147958280F07B100BE4751 /* Preview Content */; };
+		D019E6212814410900481796 /* RecordingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019E6202814410900481796 /* RecordingList.swift */; };
+		D019E6232814446600481796 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019E6222814446600481796 /* Extensions.swift */; };
+		D019E62528144ACB00481796 /* RecordingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019E62428144ACB00481796 /* RecordingDataModel.swift */; };
+		D019E6272814522600481796 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019E6262814522600481796 /* AudioPlayer.swift */; };
 		D02C276F280FAD94003394BC /* emergency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C276E280FAD94003394BC /* emergency.swift */; };
 		D02C2771280FADDC003394BC /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C2770280FADDC003394BC /* Record.swift */; };
 		D03747C0280EF72C00255C12 /* Smart_Hospital_BedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03747BF280EF72C00255C12 /* Smart_Hospital_BedApp.swift */; };
@@ -40,6 +44,10 @@
 /* Begin PBXFileReference section */
 		D0147956280F075200BE4751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0147958280F07B100BE4751 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		D019E6202814410900481796 /* RecordingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingList.swift; sourceTree = "<group>"; };
+		D019E6222814446600481796 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D019E62428144ACB00481796 /* RecordingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDataModel.swift; sourceTree = "<group>"; };
+		D019E6262814522600481796 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		D02C276E280FAD94003394BC /* emergency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emergency.swift; sourceTree = "<group>"; };
 		D02C2770280FADDC003394BC /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		D03747BC280EF72C00255C12 /* Smart_Hospital_Bed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smart_Hospital_Bed.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +118,10 @@
 				D02C276E280FAD94003394BC /* emergency.swift */,
 				D02C2770280FADDC003394BC /* Record.swift */,
 				D05CF51828130FD70083F6D0 /* info.plist */,
+				D019E6202814410900481796 /* RecordingList.swift */,
+				D019E6222814446600481796 /* Extensions.swift */,
+				D019E62428144ACB00481796 /* RecordingDataModel.swift */,
+				D019E6262814522600481796 /* AudioPlayer.swift */,
 			);
 			path = Smart_Hospital_Bed;
 			sourceTree = "<group>";
@@ -263,10 +275,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D03747C2280EF72C00255C12 /* ContentView.swift in Sources */,
+				D019E6212814410900481796 /* RecordingList.swift in Sources */,
+				D019E6272814522600481796 /* AudioPlayer.swift in Sources */,
 				D02C276F280FAD94003394BC /* emergency.swift in Sources */,
+				D019E62528144ACB00481796 /* RecordingDataModel.swift in Sources */,
 				D02C2771280FADDC003394BC /* Record.swift in Sources */,
 				D075F5E4280EFD6400479A3B /* Home.swift in Sources */,
 				D03747C0280EF72C00255C12 /* Smart_Hospital_BedApp.swift in Sources */,
+				D019E6232814446600481796 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

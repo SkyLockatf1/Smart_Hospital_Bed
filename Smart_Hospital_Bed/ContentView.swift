@@ -18,7 +18,7 @@ struct ContentView: View {
                 .tabItem{
                     Label("Emergency",systemImage: "")
                 }
-            Record()
+            Record(audioRecorder: AudioRecorder())
                 .tabItem{
                     Label("Record",systemImage: "")
                 }
