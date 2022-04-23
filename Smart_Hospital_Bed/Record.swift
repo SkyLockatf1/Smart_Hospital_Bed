@@ -53,7 +53,7 @@ class AudioRecorder: NSObject,ObservableObject {
         do {
             audioRecorder = try AVAudioRecorder(url: audioFilename, settings: settings)
             audioRecorder.record()
-            
+
             recording = true
         } catch {
             print("Could not start recording")
@@ -88,7 +88,7 @@ class AudioRecorder: NSObject,ObservableObject {
         for url in urlsToDelete {
             print(url)
             do {
-                try FileManager.default.removeItem(at: url)
+               try FileManager.default.removeItem(at: url)
             } catch {
                 print("File could not be deleted!")
             }
