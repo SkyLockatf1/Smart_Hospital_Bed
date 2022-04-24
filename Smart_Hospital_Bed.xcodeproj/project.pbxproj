@@ -51,6 +51,7 @@
 		D019E6282814583D00481796 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		D02C276E280FAD94003394BC /* emergency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emergency.swift; sourceTree = "<group>"; };
 		D02C2770280FADDC003394BC /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		D02C371128157AA900FF3DD1 /* Smart-Hospital-Bed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smart-Hospital-Bed-Info.plist"; sourceTree = "<group>"; };
 		D03747BC280EF72C00255C12 /* Smart_Hospital_Bed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smart_Hospital_Bed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03747BF280EF72C00255C12 /* Smart_Hospital_BedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Hospital_BedApp.swift; sourceTree = "<group>"; };
 		D03747C1280EF72C00255C12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +91,7 @@
 		D03747B3280EF72C00255C12 = {
 			isa = PBXGroup;
 			children = (
+				D02C371128157AA900FF3DD1 /* Smart-Hospital-Bed-Info.plist */,
 				D03747BE280EF72C00255C12 /* Smart_Hospital_Bed */,
 				D03747CF280EF73000255C12 /* Smart_Hospital_BedTests */,
 				D03747D9280EF73000255C12 /* Smart_Hospital_BedUITests */,
